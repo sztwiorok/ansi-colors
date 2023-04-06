@@ -27,4 +27,6 @@ printf "This is \033[9mStrikethrough\n"
 printf "This is \033[7mReversed\n"
 printf "Logs can user many styles at the same time\n"
 printf "This is \033[32;41;1;4m Green with blold and underline on red bg\n"
-
+printf "\n\n\n"
+printf "Here is and example tests output:\n"
+cat logs.txt
