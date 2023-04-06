@@ -1,0 +1,48 @@
+------------------------------------------------------------
+[33m12x DEPRECATION: [39m[1mSince fakerphp/faker 1.20: Provider is deprecated and will no longer be available in Faker 2. Please use a custom provider instead[22m[33m [39m[32m/data/vendor/symfony/deprecation-contracts/function.php:25[39m
+[1mBuddyTest\Zed\ProductPageSearch.Communication Tests (16) [22m-
+------------------------------------------------------------
+[1mBuddyTest\Zed\ProductPageSearch.Persistence Tests (1) [22m----
+[32;1m✔[39;22m [35;1mProductPageSearchRepositoryTest:[39;22m Get eligible for add to cart product abstracts ids returns correct product abstract ids[32m(0.01s)[39m
+[BuddyTest\Glue\ShipmentsRestApi]: tests from /data/vendor/Buddy/Buddy/Bundles/ShipmentsRestApi/tests/BuddyTest/Glue/ShipmentsRestApi
+[1mBuddyTest\Glue\ShipmentsRestApi.Business Tests (9) [22m-------
+[32;1m✔[39;22m [35;1mAddressSourceCheckoutRequestValidatorPluginTest:[39;22m Address source checkout request attributes validator plugin test will call address source validator plugins[32m(0.03s)[39m
+[32;1m✔[39;22m [35;1mShipmentDataCheckoutRequestValidatorPluginTest:[39;22m Shipment data checkout request validator plugin | #0[32m(0.01s)[39m
+[32;1m✔[39;22m [35;1mShipmentDataCheckoutRequestValidatorPluginTest:[39;22m Shipment data checkout request validator plugin | #1[32m(0.00s)[39m
+[32;1m✔[39;22m [35;1mShipmentDataCheckoutRequestValidatorPluginTest:[39;22m Shipment data checkout request validator plugin | #2[32m(0.00s)[39m
+[32;1m✔[39;22m [35;1mShipmentDataCheckoutRequestValidatorPluginTest:[39;22m Shipment data checkout request validator plugin | #3[32m(0.00s)[39m
+[32;1m✔[39;22m [35;1mShipmentDataCheckoutRequestValidatorPluginTest:[39;22m Shipment data checkout request validator plugin | #4[32m(0.00s)[39m
+[32;1m✔[39;22m [35;1mShipmentDataCheckoutRequestValidatorPluginTest:[39;22m Shipment data checkout request validator plugin | #5[32m(0.00s)[39m
+[32;1m✔[39;22m [35;1mShipmentDataCheckoutRequestValidatorPluginTest:[39;22m Shipment data checkout request validator plugin | #6[32m(0.00s)[39m
+[32;1m✔[39;22m [35;1mShipmentDataCheckoutRequestValidatorPluginTest:[39;22m Shipment data checkout request validator plugin | #7[32m(0.00s)[39m
+------------------------------------------------------------
+[BuddyTest\Glue\UsersBackendApi]: tests from /data/vendor/Buddy/Buddy/Bundles/UsersBackendApi/tests/BuddyTest/Glue/UsersBackendApi
+[1mBuddyTest\Glue\UsersBackendApi.Communication Tests (2) [22m---
+[32;1m✔[39;22m [35;1mUserByWarehouseUserAssignmentBackendResourceRelationshipPluginTest:[39;22m Add relationships will add users resource to warehouse user assignments resource[32m(0.20s)[39m
+[32;1m✔[39;22m [35;1mUserByWarehouseUserAssignmentBackendResourceRelationshipPluginTest:[39;22m Add relationships will not add users resource if user is not found by uuid[32m(0.00s)[39m
+------------------------------------------------------------
+[BuddyTest\Glue\WarehouseUsersBackendApi]: tests from /data/vendor/Buddy/Buddy/Bundles/WarehouseUsersBackendApi/tests/BuddyTest/Glue/WarehouseUsersBackendApi
+[1mBuddyTest\Glue\WarehouseUsersBackendApi.Communication Tests (20) [22m
+[32;1m✔[39;22m [35;1mWarehouseUserAssignmentResourceControllerTest:[39;22m Get collection action returns collection of all warehouse user assignments for admin user[32m(0.24s)[39m
+[32;1m✔[39;22m [35;1mWarehouseUserAssignmentResourceControllerTest:[39;22m Get collection action returns collection of users warehouse user assignments for warehouse user[32m(0.12s)[39m
+[32;1m✔[39;22m [35;1mWarehouseUserAssignmentResourceControllerTest:[39;22m Get collection action returns forbidden error when user is not provided in request[32m(0.00s)[39m
+[32;1m✔[39;22m [35;1mWarehouseUserAssignmentResourceControllerTest:[39;22m Get collection action returns forbidden error when invalid surrogate user identifier provided in request[32m(0.00s)[39m
+[32;1m✔[39;22m [35;1mWarehouseUserAssignmentResourceControllerTest:[39;22m Get action returns own warehouse user assignments for admin user[32m(0.06s)[39m
+[32;1m✔[39;22m [35;1mWarehouseUserAssignmentResourceControllerTest:[39;22m Get action returns another users warehouse user assignments for admin user[32m(0.12s)[39m
+[32;1m✔[39;22m [35;1mWarehouseUserAssignmentResourceControllerTest:[39;22m Get action returns not found error for non existent warehouse user assignments uuid[32m(0.12s)[39m
+[32;1m✔[39;22m [35;1mWarehouseUserAssignmentResourceControllerTest:[39;22m Get action returns own warehouse user assignments for warehouse user[32m(0.06s)[39m
+[32;1m✔[39;22m [35;1mWarehouseUserAssignmentResourceControllerTest:[39;22m Get action returns not found error when another users warehouse user assignments uuid provided for warehouse user[32m(0.12s)[39m
+[32;1m✔[39;22m [35;1mWarehouseUserAssignmentResourceControllerTest:[39;22m Get action returns not found error when users is not provided in request[32m(0.06s)[39m
+[32;1m✔[39;22m [35;1mWarehouseUserAssignmentResourceControllerTest:[39;22m Get action returns not found error when users invalid surrogate user identifier provided in request[32m(0.06s)[39m
+[32;1m✔[39;22m [35;1mWarehouseUserAssignmentResourceControllerTest:[39;22m Post action returns persisted warehouse user assignments resource[32m(0.21s)[39m
+[32;1m✔[39;22m [35;1mWarehouseUserAssignmentResourceControllerTest:[39;22m Post action returns not found error when warehouse user creates warehouse user assignment for another user[32m(0.14s)[39m
+[32;1m✔[39;22m [35;1mWarehouseUserAssignmentResourceControllerTest:[39;22m Post action returns persisted warehouse user assignment when admin user creates warehouse user assignment for another user[32m(0.12s)[39m
+[32;1m✔[39;22m [35;1mWarehouseUserAssignmentResourceControllerTest:[39;22m Patch action returns persisted warehouse user assignments resource[32m(0.08s)[39m
+[32;1m✔[39;22m [35;1mWarehouseUserAssignmentResourceControllerTest:[39;22m Patch action returns not found error when warehouse user updates warehouse user assignment of another user[32m(0.12s)[39m
+[32;1m✔[39;22m [35;1mWarehouseUserAssignmentResourceControllerTest:[39;22m Patch action returns persisted warehouse user assignment when admin user updates warehouse user assignment of another user[32m(0.12s)[39m
+[32;1m✔[39;22m [35;1mWarehouseUserAssignmentResourceControllerTest:[39;22m Delete action deletes warehouse user assignment from database[32m(0.08s)[39m
+[32;1m✔[39;22m [35;1mWarehouseUserAssignmentResourceControllerTest:[39;22m Delete action deletes warehouse user assignment from database when admin user deletes another users warehouse user assignment[32m(0.12s)[39m
+[32;1m✔[39;22m [35;1mWarehouseUserAssignmentResourceControllerTest:[39;22m Delete action does not delete warehouse user assignment when warehouse user deletes another users warehouse user assignment[32m(0.12s)[39m
+------------------------------------------------------------
+Time: 00:09.154, Memory: 42.00 MB
+[30;42mOK (535 tests, 1462 assertions)[39;49m
