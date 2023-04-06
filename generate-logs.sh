@@ -25,4 +25,6 @@ printf "This is \033[3mItalic\n"
 printf "This is \033[4mUnderline\n"
 printf "This is \033[9mStrikethrough\n"
 printf "This is \033[7mReversed\n"
+printf "Logs can user many styles at the same time\n"
+printf "This is \033[32;41;1;4m Green with blold and underline on red bg\n"
 
