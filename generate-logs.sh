@@ -1,0 +1,11 @@
+#!/bin/bash
+printf "This script will show you ANSI colors in Buddy\n"
+printf "We have 8 colors:\n"
+printf "This is \033[$30mBlack\n"
+printf "This is \033[$31mRed\n"
+printf "This is \033[$32mGreen\n"
+printf "This is \033[$33mYellow\n"
+printf "This is \033[$34mBlue\n"
+printf "This is \033[$35mMagenta\n"
+printf "This is \033[$36mCyan\n"
+printf "This is \033[$37mWhite\n"
