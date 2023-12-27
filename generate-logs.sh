@@ -1,4 +1,5 @@
 #!/bin/bash
+# test
 printf "This script will show you ANSI colors in Buddy\n"
 printf "We have 8 colors:\n"
 printf "This is \033[30mBlack\n"
