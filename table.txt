@@ -1,0 +1,11 @@
+[34m╭────────────[34m[30m[44m dockerfile build [0m[0m[34m───────────╼[0m
+[34m│[0m [34m › using dockerfile [35m/.app_platform_workspace/Dockerfile[0m[0m
+[34m│[0m [34m › using build context [35m/.app_platform_workspace/[0m[0m
+[34m│[0m 
+[34m│[0m [36mINFO[0m[0000] Retrieving image manifest node:18-alpine     
+[34m│[0m [36mINFO[0m[0000] Retrieving image library/node:18-alpine from registry mirror <registry-uri-0> 
+[34m│[0m [36mINFO[0m[0000] Retrieving image manifest node:18-alpine     
+[34m│[0m [36mINFO[0m[0000] Returning cached image manifest              
+[34m│[0m [36mINFO[0m[0000] Built cross stage deps: map[]                
+[34m│[0m [36mINFO[0m[0000] Retrieving image manifest node:18-alpine     
+[34m│[0m [36mINFO[0m[0000] Returning cached image manifest     
